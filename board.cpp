@@ -3,7 +3,9 @@
 Board::Board() {
 	for (size_t rij = 0; rij < 8; rij++) {
 		for (size_t kol = 0; kol < 8; kol++) {
-			if 
+			if (rij == 1 or rij == 6) {
+				arr[rij][kol] = 
+			}
 		}
 	}
 }

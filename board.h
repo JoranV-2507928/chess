@@ -10,15 +10,12 @@ private:
 
 class Coord {
 public:
-	Coord(int x, int y) : xy{ x, y } {}
+	Coord(int x, int y);
 
-	int getx() const { return xy.first; }
-	int gety() const { return xy.second; }
+	int getx() const;
+	int gety() const;
 
-	void set(int x, int y) {
-		xy.first = x;
-		xy.second = y;
-	}
+	void set(int x, int y);
 
 private:
 	std::pair<int, int> xy;

@@ -21,7 +21,7 @@
     <ClCompile Include="board.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="pieces.cpp">
+    <ClCompile Include="pawn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,7 +29,7 @@
     <ClInclude Include="board.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="pieces.h">
+    <ClInclude Include="pawn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

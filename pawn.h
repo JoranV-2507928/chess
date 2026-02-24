@@ -1,33 +1,14 @@
 #include "board.h"
 
-class Rook {
-public:
-
-
-private:
-
-};
-
-class Knight {
-
-};
-
-class Bishop {
-
-};
-
-class King {
-
-};
-
-class Qween {
-
-};
-
 class Pawn {
 public:
+	Pawn(int x, int y);
 
+	Coord getPosition() const;
+	void moveTo(int x, int y);
 
 private:
-	Coord coordinaat(x, y);
+	Coord positie;
+	int is_moved{ 0 };
+	int is_white;
 };
