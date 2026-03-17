@@ -1,5 +1,4 @@
-﻿  board.cpp
-  main.cpp
-  pawn.cpp
-C:\Users\sarah\OneDrive\Documenten\joran\school\1 hoger\semester 2\OO\chess\chess\board.cpp(8,4): error C2059: syntax error: '}'
+﻿  main.cpp
+  piece.cpp
   Generating Code...
+  chess.vcxproj -> C:\Users\sarah\OneDrive\Documenten\joran\school\1 hoger\semester 2\OO\chess\x64\Debug\chess.exe
