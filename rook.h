@@ -7,4 +7,8 @@ public:
 
 private:
 	int legal_move(int x, int y) const;
+<<<<<<< HEAD
+=======
+	//test
+>>>>>>> herstel
 };
