@@ -4,11 +4,11 @@ Coord::Coord(int x, int y) : m_x{ x }, m_y{ y } {
 
 }
 
-int Coord::get_X() const {
+int Coord::get_X() {
 	return m_x;
 }
 
-int Coord::get_Y() const {
+int Coord::get_Y() {
 	return m_y;
 }
 
@@ -25,10 +25,10 @@ void Piece::verander_positie(int x, int y) {
 	m_coordinaat.set_coord(x, y);
 }
 
-Coord Piece::get_coord() const {
+Coord Piece::get_coord() {
 	return m_coordinaat;
 }
 
-int Piece::get_white() const {
+int Piece::get_white() {
 	return m_white;
 }

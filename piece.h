@@ -1,8 +1,8 @@
 class Coord {
 public:
 	Coord(int x, int y);
-	int get_X() const;
-	int get_Y() const;
+	int get_X();
+	int get_Y();
 	void set_coord(int x, int y);
 
 private:
@@ -13,8 +13,8 @@ class Piece {
 public:
 	Piece(int x, int y, int white);
 	void verander_positie(int x, int y);
-	Coord get_coord() const;
-	int get_white() const;
+	Coord get_coord();
+	int get_white();
 
 private:
 	int m_white;
