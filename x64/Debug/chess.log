@@ -1,10 +1,2 @@
-﻿  board.cpp
-  main.cpp
-  pawn.cpp
-  piece.cpp
-  Generating Code...
-C:\Users\sarah\OneDrive\Documenten\joran\school\1 hoger\semester 2\OO\chess\chess\pawn.cpp(3,45): error C2062: type 'int' unexpected
-C:\Users\sarah\OneDrive\Documenten\joran\school\1 hoger\semester 2\OO\chess\chess\pawn.cpp(3,85): error C2512: 'Piece': no appropriate default constructor available
-      C:\Users\sarah\OneDrive\Documenten\joran\school\1 hoger\semester 2\OO\chess\chess\piece.h(12,7):
-      see declaration of 'Piece'
-  
+﻿  pawn.cpp
+  chess.vcxproj -> C:\Users\sarah\OneDrive\Documenten\joran\school\1 hoger\semester 2\OO\chess\x64\Debug\chess.exe
